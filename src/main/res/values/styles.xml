@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/BotaoEstilo</item>
+    </style>
+    <style name="BotaoEstilo" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BarraEstilo">
+      <item name="android:colorBackground">@color/colorAccent</item>
+      <item name="android:textColor">#ffffff</item>
+      <item name="android:buttonStyleToggle">@style/ToggleEstilo</item>
+      <item name="android:buttonBarStyle">@style/ToggleEstilo</item>
+    </style>
+    <style name="ToggleEstilo">
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

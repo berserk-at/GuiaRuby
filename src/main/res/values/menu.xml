@@ -1,0 +1,10 @@
+<resources>
+    <string name="menu_inicio">Início</string>
+    <string name="menu_basico">Básico</string>
+    <string name="menu_console_comentario">Console/Comentários</string>
+    <string name="menu_palavras_reservadas">Palavras reservadas</string>
+    <string name="menu_tipagem">Tipagem</string>
+    <string name="menu_classes">Classes</string>
+    <string name="menu_rails">Rails</string>
+    <string name="menu_sites" formatted="false">Sites</string>
+</resources>
